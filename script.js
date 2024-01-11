@@ -43,7 +43,7 @@ function getParagraphByMood(mood) {
 function getImageByMood(mood) {
     switch (mood) {
         case "happy":
-            return "happy.jpg.tiff"; // Replace with the actual file name/path for the happy mood image
+            return "happy.jpg"; // Replace with the actual file name/path for the happy mood image
         case "sad":
             return "sad.jpg"; // Replace with the actual file name/path for the sad mood image
         case "anxious":

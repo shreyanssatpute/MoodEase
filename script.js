@@ -22,6 +22,8 @@ function getParagraphByMood(mood) {
     switch (mood) {
         case "Default":
             return "Hey there! Select a mood to get Started ♡";
+        case "Neutral":
+                return "Welcome! How are you feeling today? Sometimes, we experience moments where our emotions are in a state of balance, not particularly leaning towards happiness or sadness, excitement or worry. It's perfectly okay to feel neutral, as it allows us to take a pause and simply be present in the moment. Use this time to reflect on your thoughts, appreciate the stillness, and find comfort in the calm. Whether your day is filled with excitement or quiet simplicity, your emotions are valid. Embrace this neutral space as an opportunity to recharge and center yourself. If you ever need a mood boost or someone to talk to, I'm here for you. Take a deep breath, and let's navigate this moment together.";    
         case "happy":
             return "That's Great I'm really happy to hear this and wish this happiness stays forever with you, Take a moment to reflect on the things that bring you happiness, whether it's spending time with loved ones, achieving a personal goal, or simply enjoying the beauty of the present moment. Remember, happiness is a precious gift you give to yourself, and you deserve every bit of it. So, keep smiling and continue spreading those positive vibes to make the world a brighter place!";
         case "sad":
@@ -56,6 +58,8 @@ function getImageByMood(mood) {
             return "default.png"; // Replace with the actual file name/path for the default image
         case "Angry":
             return "angry.png"; // Replace with the actual file name/path for the default image    
+        case "Neutral":
+                return "neutral.png";    
         default:
             return ""; // No image for unknown mood
     }

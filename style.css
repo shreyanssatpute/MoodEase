@@ -56,7 +56,8 @@ select {
     }
 
     select {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 2px; /* Adjust padding for smaller screens */
+        
     }
 
    

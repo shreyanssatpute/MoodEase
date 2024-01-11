@@ -10,6 +10,7 @@ function generateParagraph() {
     var resultParagraph = document.getElementById("resultParagraph");
     var paragraphElement = document.getElementById("paragraph");
     var moodImageElement = document.getElementById("moodImage");
+    
 
     var paragraph = getParagraphByMood(selectedMood);
     var moodImageSrc = getImageByMood(selectedMood);
